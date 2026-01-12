@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="conquestfixnoslowness"
+version="1.0.0"
+displayName="Conquest Fix No Slowness"
+description='''
+Removes the foliage slowness effect from Conquest Reforged mod.
+'''
+
+[[dependencies.conquestfixnoslowness]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.conquestfixnoslowness]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.conquestfixnoslowness]]
+    modId="conquest"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
